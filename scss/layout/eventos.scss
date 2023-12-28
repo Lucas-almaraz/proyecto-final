@@ -1,0 +1,34 @@
+.eventos {
+
+    .textos-eventos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+        h6 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .parrafo-evento {
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    img {
+        width: 100%;
+
+    }
+}
+
+.parrafo-evento {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}

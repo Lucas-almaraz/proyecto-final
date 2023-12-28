@@ -1,0 +1,138 @@
+.seccion-dj {
+    display: flex;
+    margin-top: 20px;
+
+    .imagen {
+        width: 500px;
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+        h5 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+        }
+    }
+}
+
+.seccion-sonido {
+    display: flex;
+    margin-top: 20px;
+
+    .imagen {
+        width: 500px;
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+        h5 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+        }
+    }
+
+}
+
+.seccion-iluminacion {
+    display: flex;
+    margin-top: 20px;
+
+    .imagen {
+        width: 500px;
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+        h5 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.seccion-seguridad {
+    display: flex;
+    margin-top: 20px;
+
+    .imagen {
+        width: 500px;
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+        h5 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+@media all and (max-width: 600px) {
+    .seccion-dj {
+        flex-direction: column;
+    }
+
+    .seccion-sonido {
+        flex-direction: column;
+    }
+
+    .seccion-iluminacion {
+        flex-direction: column;
+    }
+
+    .seccion-seguridad {
+        flex-direction: column;
+    }
+
+    .imagen {
+        width: 200px;
+    }
+
+
+}

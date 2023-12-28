@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    section {
+
+        h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            font-weight: bold;
+
+        }
+
+
+        .logo-lt {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .boton {
+            padding: 17px 40px;
+            border-radius: 50px;
+            cursor: pointer;
+            border: 0;
+            background-color: white;
+            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            font-size: 15px;
+            transition: all 0.5s ease;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            letter-spacing: 3px;
+            background-color: #7a0155;
+            color: hsl(0, 0%, 100%);
+            box-shadow: #7a0155;
+        }
+
+        .boton:active {
+            letter-spacing: 3px;
+            background-color: #7a0155;
+            color: hsl(0, 0%, 100%);
+            box-shadow: #7a0155;
+            transform: translateY(10px);
+            transition: 100ms;
+        }
+
+    }
+}

@@ -1,0 +1,77 @@
+@import 'layout/menu';
+@import 'layout/cartas';
+@import 'layout/footer.scss';
+@import 'layout/nosotros.scss';
+@import 'layout/servicios.scss';
+@import 'layout/contacto.scss';
+@import 'layout/eventos.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.frase-medio {
+    margin-top: 30px;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../imagenes/fiesta-dj.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .primer-frase {
+        color: black;
+        text-align: center;
+        width: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+}
+
+
+.icono-whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 35px;
+}
+
+
+h6 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+
+}
