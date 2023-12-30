@@ -105,6 +105,107 @@ main section .boton:active {
     flex-direction: column;
   }
 }
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 0;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #000000;
+  background: transparent;
+}
+.btn a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgba(230, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+.card {
+  background-color: black;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #7f0566 40%, #7E4372 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
 .pie-pagina {
   width: 100%;
   background-color: black;
@@ -209,6 +310,45 @@ body {
   font-size: 1rem;
   font-weight: bold;
   color: white;
+  margin: 30px;
+}
+
+.seccion-boton {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.boton {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.boton:hover {
+  letter-spacing: 3px;
+  background-color: #7a0155;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #7a0155;
+}
+
+.boton:active {
+  letter-spacing: 3px;
+  background-color: #7a0155;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #7a0155;
+  transform: translateY(10px);
+  transition: 100ms;
 }
 
 .seccion-dj {
@@ -338,7 +478,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
-  margin-top: 50px;
+  margin-top: 5px;
 }
 .formulario .titulo {
   color: #7a0155;
@@ -380,6 +520,9 @@ body {
   cursor: pointer;
 }
 
+.eventos {
+  margin: 20px;
+}
 .eventos .textos-eventos {
   display: flex;
   flex-direction: column;
